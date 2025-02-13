@@ -1,0 +1,24 @@
+{
+    "name": "refer-earn-backend",
+    "version": "1.0.0",
+    "description": "Backend for Refer & Earn system",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+      "dev": "nodemon src/server.js",
+      "start": "node src/server.js"
+    },
+    "dependencies": {
+      "@prisma/client": "^5.0.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "googleapis": "^121.0.0",
+      "mysql2": "^3.2.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22",
+      "prisma": "^5.0.0"
+    }
+  }
+  
